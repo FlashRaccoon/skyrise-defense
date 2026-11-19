@@ -1,0 +1,858 @@
+[
+  {
+    "file": "assets/placeholders/module-coreReactor.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module CORE REACTOR (core); source PoC: coût 0, PV 50, dégâts 1."
+  },
+  {
+    "file": "assets/placeholders/module-coreBerserker.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module BERSERKER CORE (core); source PoC: coût 0, PV 25, dégâts 40."
+  },
+  {
+    "file": "assets/placeholders/module-coreFortress.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module FORTRESS CORE (core); source PoC: coût 0, PV 200, dégâts 1."
+  },
+  {
+    "file": "assets/placeholders/module-coreSurge.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module SURGE CORE (core); source PoC: coût 0, PV 35, dégâts 1."
+  },
+  {
+    "file": "assets/placeholders/module-coreShrouded.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module SHROUDED CORE (core); source PoC: coût 0, PV 40, dégâts 1."
+  },
+  {
+    "file": "assets/placeholders/module-coreVolatile.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module VOLATILE CORE (core); source PoC: coût 0, PV 30, dégâts 1."
+  },
+  {
+    "file": "assets/placeholders/module-coreRegenerating.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module REGENERATING CORE (core); source PoC: coût 0, PV 60, dégâts 1."
+  },
+  {
+    "file": "assets/placeholders/module-coreCommand.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module COMMAND CORE (core); source PoC: coût 0, PV 45, dégâts 1."
+  },
+  {
+    "file": "assets/placeholders/module-cannon.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module CANNON (weapon); source PoC: coût 75, PV 20, dégâts 15."
+  },
+  {
+    "file": "assets/placeholders/module-laser.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module LASER (weapon); source PoC: coût 60, PV 15, dégâts 10."
+  },
+  {
+    "file": "assets/placeholders/module-missile.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module MISSILE (weapon); source PoC: coût 100, PV 18, dégâts 25."
+  },
+  {
+    "file": "assets/placeholders/module-tesla.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module TESLA (weapon); source PoC: coût 80, PV 15, dégâts 8."
+  },
+  {
+    "file": "assets/placeholders/module-shield.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module SHIELD (defense); source PoC: coût 70, PV 30, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-healer.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module HEALER (defense); source PoC: coût 90, PV 25, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-dampener.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module DAMPENER (defense); source PoC: coût 85, PV 22, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-reactor.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module REACTOR (energy); source PoC: coût 80, PV 30, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-radar.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module RADAR (utility); source PoC: coût 40, PV 20, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-battery.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module BATTERY (utility); source PoC: coût 50, PV 20, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-scrap.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module SCRAP (utility); source PoC: coût 30, PV 15, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-antenna.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module ANTENNA (utility); source PoC: coût 60, PV 18, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-habitation.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module HABITATION (utility); source PoC: coût 50, PV 25, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-structure.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module STRUCTURE (utility); source PoC: coût 65, PV 35, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-structurePlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module STRUCTURE+ (utility); source PoC: coût 78, PV 45, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-structureMax.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module STRUCTURE MAX (utility); source PoC: coût 110, PV 60, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-cannonPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module CANNON+ (weapon); source PoC: coût 90, PV 24, dégâts 20."
+  },
+  {
+    "file": "assets/placeholders/module-laserPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module LASER+ (weapon); source PoC: coût 72, PV 18, dégâts 13."
+  },
+  {
+    "file": "assets/placeholders/module-missilePlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module MISSILE+ (weapon); source PoC: coût 120, PV 22, dégâts 33."
+  },
+  {
+    "file": "assets/placeholders/module-teslaPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module TESLA+ (weapon); source PoC: coût 96, PV 24, dégâts 11."
+  },
+  {
+    "file": "assets/placeholders/module-shieldPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module SHIELD+ (defense); source PoC: coût 84, PV 42, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-healerPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module HEALER+ (defense); source PoC: coût 108, PV 32, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-dampenerPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module DAMPENER+ (defense); source PoC: coût 102, PV 28, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-reactorPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module REACTOR+ (energy); source PoC: coût 96, PV 38, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-cannonPlusPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module CANNON++ (weapon); source PoC: coût 112, PV 28, dégâts 28."
+  },
+  {
+    "file": "assets/placeholders/module-laserPlusPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module LASER++ (weapon); source PoC: coût 84, PV 20, dégâts 18."
+  },
+  {
+    "file": "assets/placeholders/module-missilePlusPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module MISSILE++ (weapon); source PoC: coût 150, PV 26, dégâts 45."
+  },
+  {
+    "file": "assets/placeholders/module-teslaPlusPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module TESLA++ (weapon); source PoC: coût 120, PV 28, dégâts 15."
+  },
+  {
+    "file": "assets/placeholders/module-shieldPlusPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module SHIELD++ (defense); source PoC: coût 105, PV 55, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-healerPlusPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module HEALER++ (defense); source PoC: coût 135, PV 40, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-dampenerPlusPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module DAMPENER++ (defense); source PoC: coût 128, PV 35, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-reactorPlusPlus.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module REACTOR++ (energy); source PoC: coût 120, PV 45, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-cannonMax.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module CANNON MAX (weapon); source PoC: coût 150, PV 32, dégâts 40."
+  },
+  {
+    "file": "assets/placeholders/module-laserMax.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module LASER MAX (weapon); source PoC: coût 135, PV 24, dégâts 22."
+  },
+  {
+    "file": "assets/placeholders/module-missileMax.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module MISSILE MAX (weapon); source PoC: coût 180, PV 30, dégâts 60."
+  },
+  {
+    "file": "assets/placeholders/module-teslaMax.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module TESLA MAX (weapon); source PoC: coût 160, PV 32, dégâts 20."
+  },
+  {
+    "file": "assets/placeholders/module-shieldMax.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module SHIELD MAX (defense); source PoC: coût 140, PV 60, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-healerMax.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module HEALER MAX (defense); source PoC: coût 162, PV 50, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-dampenerMax.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module DAMPENER MAX (defense); source PoC: coût 153, PV 45, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-reactorMax.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module REACTOR MAX (energy); source PoC: coût 160, PV 55, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/module-nuclearBomb.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module NUCLEAR BOMB (weapon); source PoC: coût 200, PV 20, dégâts 100."
+  },
+  {
+    "file": "assets/placeholders/module-amplifier.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder de module AMPLIFIER (support); source PoC: coût 125, PV 25, dégâts 0."
+  },
+  {
+    "file": "assets/placeholders/pilot-architect.png",
+    "size": [
+      128,
+      150
+    ],
+    "description": "Placeholder de pilote THE ARCHITECT — Balanced builder. +15% module HP, +1 max energy."
+  },
+  {
+    "file": "assets/placeholders/pilot-salvager.png",
+    "size": [
+      128,
+      150
+    ],
+    "description": "Placeholder de pilote THE SALVAGER — Economy focused. Starts with extra credits."
+  },
+  {
+    "file": "assets/placeholders/pilot-warrior.png",
+    "size": [
+      128,
+      150
+    ],
+    "description": "Placeholder de pilote THE WARRIOR — Glass cannon."
+  },
+  {
+    "file": "assets/placeholders/pilot-technomancer.png",
+    "size": [
+      128,
+      150
+    ],
+    "description": "Placeholder de pilote THE TECHNOMANCER — Tech specialist."
+  },
+  {
+    "file": "assets/placeholders/pilot-oracle.png",
+    "size": [
+      128,
+      150
+    ],
+    "description": "Placeholder de pilote THE ORACLE — Chaos mode. Random prophecy each run."
+  },
+  {
+    "file": "assets/placeholders/pilot-ascetic.png",
+    "size": [
+      128,
+      150
+    ],
+    "description": "Placeholder de pilote THE ASCETIC — Hardcore minimalist."
+  },
+  {
+    "file": "assets/placeholders/pilot-void.png",
+    "size": [
+      128,
+      150
+    ],
+    "description": "Placeholder de pilote THE VOID — Risk/reward extremist."
+  },
+  {
+    "file": "assets/placeholders/pilot-synthesis.png",
+    "size": [
+      128,
+      150
+    ],
+    "description": "Placeholder de pilote THE SYNTHESIS — Cascade specialist."
+  },
+  {
+    "file": "assets/placeholders/pilot-custom.png",
+    "size": [
+      128,
+      150
+    ],
+    "description": "Placeholder de pilote THE TINKERER — Custom-built pilot. Forge your own path."
+  },
+  {
+    "file": "assets/placeholders/enemy-sentinel_unit.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder d'ennemi SENTINEL UNIT."
+  },
+  {
+    "file": "assets/placeholders/enemy-sentinel_aggressor.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder d'ennemi SENTINEL AGGRESSOR."
+  },
+  {
+    "file": "assets/placeholders/enemy-sentinel_guardian.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder d'ennemi SENTINEL GUARDIAN."
+  },
+  {
+    "file": "assets/placeholders/enemy-sentinel_scout.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder d'ennemi SENTINEL SCOUT."
+  },
+  {
+    "file": "assets/placeholders/enemy-rogue_construct.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder d'ennemi ROGUE CONSTRUCT."
+  },
+  {
+    "file": "assets/placeholders/enemy-void_entity.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder d'ennemi VOID ENTITY."
+  },
+  {
+    "file": "assets/placeholders/enemy-corrupted_ai.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder d'ennemi CORRUPTED AI."
+  },
+  {
+    "file": "assets/placeholders/enemy-rogue_berserker.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder d'ennemi ROGUE BERSERKER."
+  },
+  {
+    "file": "assets/placeholders/enemy-boss_sentinel.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder d'ennemi THE SENTINEL — BOSS."
+  },
+  {
+    "file": "assets/placeholders/enemy-boss_architect.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder d'ennemi THE ARCHITECT — BOSS."
+  },
+  {
+    "file": "assets/placeholders/enemy-boss_void.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder d'ennemi THE VOID — FINAL BOSS."
+  },
+  {
+    "file": "assets/placeholders/projectile.png",
+    "size": [
+      24,
+      24
+    ],
+    "description": "Placeholder généré pour SHOT: décor, projectile ou icône UI."
+  },
+  {
+    "file": "assets/placeholders/tile-floor.png",
+    "size": [
+      400,
+      180
+    ],
+    "description": "Placeholder généré pour SKY DECK: décor, projectile ou icône UI."
+  },
+  {
+    "file": "assets/placeholders/bg-sky.png",
+    "size": [
+      400,
+      180
+    ],
+    "description": "Placeholder généré pour SKYRise: décor, projectile ou icône UI."
+  },
+  {
+    "file": "assets/placeholders/ui-energy.png",
+    "size": [
+      400,
+      180
+    ],
+    "description": "Placeholder généré pour ENERGY: décor, projectile ou icône UI."
+  },
+  {
+    "file": "assets/placeholders/ui-credits.png",
+    "size": [
+      400,
+      180
+    ],
+    "description": "Placeholder généré pour CREDITS: décor, projectile ou icône UI."
+  },
+  {
+    "file": "assets/placeholders/ui-repair.png",
+    "size": [
+      400,
+      180
+    ],
+    "description": "Placeholder généré pour REPAIR: décor, projectile ou icône UI."
+  },
+  {
+    "file": "assets/placeholders/ui-attack.png",
+    "size": [
+      400,
+      180
+    ],
+    "description": "Placeholder généré pour ATTACK: décor, projectile ou icône UI."
+  },
+  {
+    "file": "assets/placeholders/ui-pass.png",
+    "size": [
+      400,
+      180
+    ],
+    "description": "Placeholder généré pour PASS: décor, projectile ou icône UI."
+  },
+  {
+    "file": "assets/placeholders/screen-menu.png",
+    "size": [
+      400,
+      180
+    ],
+    "description": "Placeholder généré pour SKYRISE: décor, projectile ou icône UI."
+  },
+  {
+    "file": "assets/placeholders/screen-victory.png",
+    "size": [
+      400,
+      180
+    ],
+    "description": "Placeholder généré pour VICTORY: décor, projectile ou icône UI."
+  },
+  {
+    "file": "assets/placeholders/screen-defeat.png",
+    "size": [
+      400,
+      180
+    ],
+    "description": "Placeholder généré pour DEFEAT: décor, projectile ou icône UI."
+  },
+  {
+    "file": "assets/placeholders/module-theSilencer.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE SILENCER; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theVeil.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE VEIL; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-jammer.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour JAMMER; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-camo.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour CAMO; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theCatalyst.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE CATALYST; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theDampenerCircuit.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE DAMPENER CIRCUIT; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theGhost.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE GHOST; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theSignalAmplifier.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE SIGNAL AMPLIFIER; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theRedirector.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE REDIRECTOR; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theLockdown.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE LOCKDOWN; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theSiphon.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE SIPHON; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theCapacitor.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE CAPACITOR; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theShredder.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE SHREDDER; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theBulwark.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE BULWARK; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theAmplifierPrime.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE AMPLIFIER PRIME; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theSuppressor.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE SUPPRESSOR; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-theDecoy.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE DECOY; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-thePhantom.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour THE PHANTOM; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-empBurst.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour EMP BURST; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/module-faradayCage.png",
+    "size": [
+      120,
+      94
+    ],
+    "description": "Placeholder géométrique généré pour FARADAY CAGE; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/enemy-rogue_fortress.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder géométrique généré pour ⚙️ ROGUE FORTRESS; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/enemy-void_storm.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder géométrique généré pour 👾 VOID STORM; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/enemy-void_phantom.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder géométrique généré pour 👾 VOID PHANTOM; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/enemy-corrupted_overlord.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder géométrique généré pour 🔴 CORRUPTED OVERLORD; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/enemy-corrupted_warden.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder géométrique généré pour 🔴 CORRUPTED WARDEN; remplaçable."
+  },
+  {
+    "file": "assets/placeholders/enemy-mutant.png",
+    "size": [
+      150,
+      130
+    ],
+    "description": "Placeholder géométrique généré pour 🔴 MUTANT; remplaçable."
+  }
+]
